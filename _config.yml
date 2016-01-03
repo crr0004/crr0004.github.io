@@ -8,8 +8,8 @@ relative_permalinks: true
 
 # Setup
 title:            Dev Blog
-tagline:          'Yet another dev blog'
-description:      'Yet another developer blog. Oh joys. Anyway, a place where I might try and post'
+tagline:          'Another developer blog'
+description:      'Another developer blog where I might try and post'
 url:              http://crr0004.github.com
 baseurl:          /
 
