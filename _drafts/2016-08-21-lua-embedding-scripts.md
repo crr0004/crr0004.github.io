@@ -2,6 +2,16 @@
 published: false
 layout: post
 ---
-## A New Post
+## Basic embedding LUA scripts in C/C++
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### Topics
+- Setting up consistentcy in scripts
+- When to load/unload
+- Handling poluting of global environment
+- Handling calls to C++ code
+- Handling consistent calls to lua from C++
+	- E.G Update functions
+- Handling C++ object creation in lua
+- Configuration vs full object control
+
+
