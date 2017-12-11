@@ -10,16 +10,16 @@ permalink:        pretty
 title:            Dev Blog
 tagline:          'Another developer blog'
 description:      'Another developer blog where I might try and post'
-url:              http://crr0004.github.com
+url:              https://crr0004.github.com
 baseurl:          /
 
 author:
   name:           'Chris R'
   url:            https://twitter.com/crr0004
 social:
-    twitter: http://twitter.com/crr0004
-    github: http://github.com/crr0004
-    linkedin: http://linkedin.com/in/rhodeschristopher
+    twitter: https://twitter.com/crr0004
+    github: https://github.com/crr0004
+    linkedin: https://linkedin.com/in/rhodeschristopher
 
 
 paginate:         5
