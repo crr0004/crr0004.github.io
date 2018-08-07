@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Dev Blog
 tagline:          'Another developer blog'
-description:      'Another developer blog where I might try and post'
+description:      'Another developer blog where I ramble'
 url:              https://crr0004.github.com
 baseurl:          ''
 
