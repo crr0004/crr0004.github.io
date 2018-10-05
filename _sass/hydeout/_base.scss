@@ -49,16 +49,10 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
-  height: auto; // Fix to keep max-width from squishing images with defined
-                // height in HTML
-}
-
-img.small {
-  display: block;
   max-width: 33%;
+  @media screen and (max-width: 400px) {
+	max-width: 100%;
+  }
   margin: 0 0 1rem;
   border-radius: 5px;
   height: auto; // Fix to keep max-width from squishing images with defined
