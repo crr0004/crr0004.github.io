@@ -2,6 +2,7 @@
 layout: post
 title: Building an Interval Timer
 category: programming
+tag: android
 ---
 
 ## The Why
