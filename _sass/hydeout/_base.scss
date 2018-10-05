@@ -56,6 +56,15 @@ img {
                 // height in HTML
 }
 
+img.small {
+  display: block;
+  max-width: 33%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+  height: auto; // Fix to keep max-width from squishing images with defined
+                // height in HTML
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;

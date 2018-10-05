@@ -21,8 +21,9 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
-  
-page.comments : false
+
+# site wide comments disable
+comments : false
 
 paginate:         5
 # paginate_path:    '/page:num'
