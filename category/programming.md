@@ -4,4 +4,4 @@ title: Programming
 category: programming
 ---
 
-All the blog posts about my programming endeavours
+All the blog posts about my programming endeavors
