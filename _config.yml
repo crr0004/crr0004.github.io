@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Dev Blog
 tagline:          'Another developer blog'
-description:      'Another developer blog where I ramble'
+description:      'Another developer blog where I write about my endeavours'
 url:              https://crr0004.github.com
 baseurl:          ''
 
@@ -35,6 +35,3 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
-
-# Custom vars
-version:          2.1.0
