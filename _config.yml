@@ -4,21 +4,30 @@ highlighter:      rouge
 
 # Setup
 title:            Dev Blog
-tagline:          'Another developer blog'
-description:      'Another developer blog where I write about my endeavours'
+tagline:          'Developer blog by Christopher'
+description:      'Developer blog by Christopher'
 url:              https://crr0004.github.com
 baseurl:          ''
 
 author:
   name:           'Chris R'
   url:            https://twitter.com/crr0004
+
 social:
-    twitter: https://twitter.com/crr0004
-    github: https://github.com/crr0004
-    linkedin: https://linkedin.com/in/rhodeschristopher
+    twitter: 
+      link: https://twitter.com/crr0004
+      icon: twitter.svg
+    github: 
+      link: https://github.com/crr0004
+      icon: github.svg
+    linkedin: 
+      link: https://linkedin.com/in/rhodeschristopher
+      icon: linkedin.svg
+    devto: 
+      link: https://dev.to/crr0004
+      icon: devto.svg
 
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
 

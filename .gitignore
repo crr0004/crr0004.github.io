@@ -40,6 +40,9 @@ validation-report.json
 # Folders to ignore
 node_modules
 .sass-cache
+vendor
+.bundle
+.jekyll-cache
 
 # Dev stuff
 Makefile

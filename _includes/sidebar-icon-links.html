@@ -11,12 +11,24 @@
       {% include svg/download.svg %}
     </a>
   {% endif %}
+    {% for social in site.social %}
+      <a id="{{ social[0] }}-social-link"
+        class="icon" title="{{ social[0] }}" aria-label="{{ social[0] }}"
+        href="{{ social[1].link }}">
 
+        {% capture icon_link %}svg/{{ social[1].icon }}{% endcapture %}
+
+        {% include {{ icon_link }} %}
+      </a>
+    {% endfor %}
+
+  <!--
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">
     {% include svg/feed.svg %}
   </a>
+  -->
 
   {% comment %}
     Check if we have tag or search pages page active before linking to it.
