@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     jekyll-theme-hydeout (3.7.0)
-      jekyll (>= 3.4, < 5.0)
+      jekyll (>= 4, < 5.0)
       jekyll-feed (~> 0.6)
       jekyll-gist (~> 1.4)
       jekyll-paginate (~> 1.1)
@@ -18,11 +18,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     faraday (0.17.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.3)
-    ffi (1.11.3-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.7.0)
@@ -72,8 +70,6 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.2.1)
       ffi (~> 1.9)
-    sassc (2.2.1-x64-mingw32)
-      ffi (~> 1.9)
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
@@ -90,4 +86,4 @@ DEPENDENCIES
   jekyll-theme-hydeout!
 
 BUNDLED WITH
-   1.16.3
+   1.17.2
