@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+{% unless page.content == '' %}
+  {{ content }}
+{% endunless %}
+
+<ul class="posts-list">
+    {% assign category = page.category | default: page.title %}
+    {% for post in site.categories[category] %}
+    <li>
+        <h3>
+            <a href="{{ post.url }}">
+                {{ post.title }}
+                <small>{{ post.date | date_to_string }}</small>
+            </a>
+        </h3>
+
+        {% if post.thumbnail %}
+            {% comment %}
+                See https://shopify.github.io/liquid/basics/truthy-and-falsy/ for why this evaluates to true when set
+            {% endcomment %}
+            <img class="portfolio" src="/assets/pictures/{{ post.thumbnail }}">
+        {% endif %}
+
+        <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+</ul>
+

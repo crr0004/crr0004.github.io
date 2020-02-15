@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: portfolio_post
 title: Building an Interval Timer
-category: programming
+category: portfolio
 tag: android
+excerpt: A project to write a timing app for myself to use at the gym
+technology: Android Kotlin SQL
 ---
 
 ## The Why
