@@ -22,6 +22,11 @@ layout: default
 
       </ul>
     {% endif %}
+    {% if page.extra_include %}
+      <div id="portfolio-extra-include">
+      {% include {{ page.extra_include }} %}
+      </div>
+    {% endif %}
 
     {{ content }}
     {% include post-tags.html post=page %}

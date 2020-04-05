@@ -1,0 +1,18 @@
+div .post-body {
+    max-width: 100rem;
+}
+
+div #file-container {
+    padding-bottom: 1rem;
+}
+
+div #portfolio-extra-include {
+    display: flex;
+    flex-direction: column;
+    #predictions {
+        display: flex;
+        img {
+            max-width: unset;
+        }
+    }
+}
