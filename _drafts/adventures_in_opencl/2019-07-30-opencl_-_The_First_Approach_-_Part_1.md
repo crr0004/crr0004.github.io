@@ -10,7 +10,7 @@ Recently I have been doing a lot of work and study in machine learning, includin
 When I started writing this piece I wanted to go into OpenCL and how to use it to implement recursion, but as I got into it I realised there is simply too much content. So in this Part 1 of many. In this piece I will be going into the basic approach of OpenCL with a sample and how we that is broken apart in OpenCL calls. Onwards to the content!
 
 Just quickly though, all the sample code can be found in my repository for these posts.
-{% github github.com/crr0004/adventures-in-opencl/ %}
+ github github.com/crr0004/adventures-in-opencl/ 
 
 # What is OpenCL
 

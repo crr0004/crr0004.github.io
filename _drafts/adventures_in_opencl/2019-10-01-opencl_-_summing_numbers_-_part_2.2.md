@@ -4,7 +4,7 @@ tags:
 ---
 # Introduction
 
-This is in continuation from {% post https://dev.to/crr0004/opencl-the-wrong-way-part-2-1-2m0c-temp-slug-3996427 %} This is a working version of summing numbers, that is another sub-problem of what we were doing before.
+This is in continuation from post https://dev.to/crr0004/opencl-the-wrong-way-part-2-1-2m0c-temp-slug-3996427 This is a working version of summing numbers, that is another sub-problem of what we were doing before.
 
 # Problem Statement
 

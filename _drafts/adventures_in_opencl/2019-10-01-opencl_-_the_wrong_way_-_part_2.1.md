@@ -9,7 +9,7 @@ In the last post in this series we looked at the general overview of OpenCL and 
 As a quick meta aside, I have been having a lot of trouble getting these posts out. As I am diving deeper and deeper into OpenCL, parallel algorithms and writing about it, I am finding I can include a lot of information but become crippled when deciding what to include. So for this, and future posts I am going to be reducing the scope of what I talk about until I can write these in a decent amount of time.
 
 As always, the code for this is available on GitHub in the "summing_numbers" folder, note it only deals with the second part of this post as a solution.
-{% github github.com/crr0004/adventures-in-opencl/ %}
+github github.com/crr0004/adventures-in-opencl/ 
 
 # Problem Statement
 
