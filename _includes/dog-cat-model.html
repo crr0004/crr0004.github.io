@@ -1,6 +1,9 @@
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
 <link rel="stylesheet" href="/assets/css/ml.css">
-<p class="section-head">Model Output</p>
+<section>
+    <h2 class='section-head'>Status</h2>
+    <div id="status"></div>
+</section>
+<h2 class="section-head">Model Output</h2>
 
 <div id="file-container">
 <span id="files-label"> Upload an image:</span>
@@ -9,9 +12,6 @@
 
 
 <div id="predictions">
-    <img alt="Cat to Anaylise" id="cat" src="http://placekitten.com/g/200/300" width="160" height="160">
-    <ul>
-        <li>0.0</li>
-    </ul>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.js"></script>
+<script src="/assets/js/dog_cat/index.js" ></script>

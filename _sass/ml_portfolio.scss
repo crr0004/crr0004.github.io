@@ -11,8 +11,12 @@ div #portfolio-extra-include {
     flex-direction: column;
     #predictions {
         display: flex;
+        flex-direction: column;
         img {
             max-width: unset;
         }
+    }
+    .pred-container {
+        display: flex;
     }
 }
